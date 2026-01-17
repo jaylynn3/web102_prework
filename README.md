@@ -27,11 +27,11 @@ Here's a walkthrough of implemented features:
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/9s8Z4TL"  ><a href="//imgur.com/a/9s8Z4TL">web102prework</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Snipping tool 
+GIF created with Snipping tool & Imgur!
 
 ## Notes
 
-*Javascript is so dificult to use but its ok never give up.
+* Javascript is so dificult to use but its ok never give up.
 * It was complicated to  add the search tool feature, but after completing it, I found that it was really simple.
 
 ## License
