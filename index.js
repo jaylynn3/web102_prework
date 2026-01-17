@@ -185,3 +185,24 @@ firstGameContainer.appendChild(topGameP);
 const secondGameP = document.createElement("p");
 secondGameP.innerHTML = secondGame.name;
 secondGameContainer.appendChild(secondGameP);
+
+
+
+
+
+const searchInput = document.getElementById("search-input");
+
+searchInput.addEventListener("input", () => {
+    const searchText = searchInput.value.toLowerCase();
+    const gameCards = document.querySelectorAll(".game-card");
+
+    gameCards.forEach((card) => {
+        const gameName = card.querySelector("h3").innerText.toLowerCase();
+
+        if (gameName.includes(searchText)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
